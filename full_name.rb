@@ -1,14 +1,11 @@
-puts "Enter first name"
-a = []
-user_input = gets.chomp
-a << user_input
+name = []
+puts "Enter your first name."
+name << gets.chomp.strip
 
-puts "Enter middle name"
-user_input = gets.chomp
-a << user_input
+puts "Enter your middle name."
+name << gets.chomp.strip
 
-puts "Enter last name"
-user_input = gets.chomp
-a << user_input
+puts "Enter your last name."
+name << gets.chomp.strip
 
-puts "Hello #{a}"
+puts "Hello, #{name[0]} #{name[1]} #{name[2]}!"
