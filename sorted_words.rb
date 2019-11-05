@@ -1,8 +1,11 @@
-word = []
-puts "Enter word"
-word = gets.chomp.strip 
+puts "Enter your words:"
 
-puts "Enter another word"
-word = gets.chomp.strip 
- 
-puts "#{word[0]} #{word[1]} "  
+words = []
+
+loop do
+    input = gets.chomp.strip
+    break if input == ''
+    words << input
+end
+words = words * " "
+puts "#{words}"
