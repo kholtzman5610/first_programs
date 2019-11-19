@@ -1,4 +1,4 @@
-puts "Enter your words:"
+puts "Enter your words. Press Enter when finish."
 
 words = []
 
