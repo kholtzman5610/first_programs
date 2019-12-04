@@ -34,6 +34,5 @@ class Sum2
     end 
 end 
 
-
 sums = Sum2.new
 puts sums.new_total(5,6) #22
